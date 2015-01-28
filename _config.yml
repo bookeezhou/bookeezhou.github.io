@@ -1,0 +1,9 @@
+name: Bookee's Blog
+url: https://bookeezhou.githb.io
+description: Recoding what about i learning and thinking
+
+permalink: /:year/:month/:day/:title/
+paginate: 10
+pygments: true
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
