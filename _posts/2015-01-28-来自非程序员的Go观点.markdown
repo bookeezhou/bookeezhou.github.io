@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title: "GO:来自非程序员的观点"
 date:   2015-01-28 23:33:35
 categories: Go
 ---
 
 
 
-:来自非程序员的观点
+GO:来自非程序员的观点
 
 Go是相当年轻的编程语言，出自Google的Robert Griesemer, Rob Pike and Ken Thompson。自从Go 1.0发布以来，这几年慢慢流行起来。
 
