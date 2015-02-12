@@ -1,5 +1,3 @@
-# 使用Virtualbox的CoreOS镜像安装CoreOS
-
 > 通过Docker了解到Coreos这个linux发行版本，不过这个linux发行版
 > 极其精简，没有包管理器等，专为虚拟化设计，所以启动迅捷，占用资源> 少，一切以容易的方式运行应用
 
