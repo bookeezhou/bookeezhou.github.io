@@ -2,9 +2,11 @@
 
 1. 到官网下载JDK，JDK文件譬如jdk-8u20-linux-x64.gz。
 	> 下载压缩包可以自由、灵活安装，而且不受限于各个Linux版本的包管理器
+	
 2. sudo make -p /usr/java
 2. sudo tar xzvf jdk-8u20-linux-x64.gz -C /usr/java
-	> 解压并拷贝jdk到/usr/java/jdk1.8.0_20目录下 
+	> 解压并拷贝jdk到/usr/java/jdk1.8.0_20目录下
+	 
 3. 配置JDK
 	> 全局/etc/profile或者当前用户.profile文件。
 	> JAVA_HOME=/usr/java/jdk1.8.0_20
@@ -12,5 +14,6 @@
 	> CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
 	> PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
 	> export JAVA_HOME JRE_HOME CLASSPATH PATH
+	
 4. 生效 source /etc/profile
 5. java -version如果打印出正确版本就正确了
