@@ -1,5 +1,3 @@
-# Linux系统安装JDK
-
 > 一下方法适用于大部分Linux发行版本
 
 1. 到官网下载JDK，JDK文件譬如jdk-8u20-linux-x64.gz。
